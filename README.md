@@ -1,2 +1,2 @@
 # PathDrawer Coding Challenge
-  ![Answer](/answer.png)
+<img src="answer.png" alt="drawing" width="200"/>
