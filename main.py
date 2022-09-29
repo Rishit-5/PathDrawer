@@ -79,8 +79,8 @@ def print_hi():
     b = linear_regression(x2, y2)
     startpoint = (0,math.floor(b[0] + b[1]*0))
     endpoint = (width,math.floor(b[0] + b[1]*width))
-    for i in coord:
-        im = cv2.circle(im, (coord[i][0][0][0][0], coord[i][0][0][0][1]), radius=2, color=(0, 255, 0), thickness=-1)
+    # for i in coord:
+    #     im = cv2.circle(im, (coord[i][0][0][0][0], coord[i][0][0][0][1]), radius=2, color=(0, 255, 0), thickness=-1)
     im = cv2.line(im, startpoint, endpoint, (215, 147, 205), 10)
 
     x = []
